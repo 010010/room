@@ -227,7 +227,7 @@ function displayUI() {
 }
 
 function rules() {
-	alert("Rules: \n1) Ter pelo menos 18 anos; \n2) Não postar conteúdo ilegal, filho da puta (NÃO POSTE COISA ILEGAL); \n3) Não floode ou force algo no chat; \n4) Não seja attwhore. \n5) Não tente fazer amiguinhosrsrs; \n6) Proibido ofensas à moderação (exceto se merecerem); \n7) Escreva o bom e velho português corretamente, seu filho da puta sem costumes. \n8) Funk é proibido.");
+	alert("Regras: \n1) Ter pelo menos 18 anos; \n2) Não postar conteúdo ilegal, filho da puta (NÃO POSTE COISA ILEGAL); \n3) Não floode ou force algo no chat; \n4) Não seja attwhore. \n5) Não tente fazer amiguinhosrsrs; \n6) Proibido ofensas à moderação (exceto se merecerem); \n7) Escreva o bom e velho português corretamente, seu filho da puta sem costumes. \n8) Funk é proibido.");
 }
 
 function initUIListeners() {
