@@ -219,10 +219,10 @@ function displayUI() {
 		+	'<a id="plug-btn-emotes" title="Habilita/desabilita emoticons" style="color:' + colorEmotes + '">EMOTICONS</a>'
 		+	'<a id="plug-btn-audience" title="Exibe/esconde a audiência da sala" style="color:' + colorAudience + '">AUDIÊNCIA</a>'
 		+	'<a  onclick="rules()" title="Exibe as principais regras da sala" style="color:#0000FF">REGRAS</a>'
-		+	'<a id="plug-btn-sleeping" title="sends sleep message and sets status to sleeping" style="color:#FF8C00">sleeping</a>'
-		+	'<a id="plug-btn-working" title="sends work message and sets status to working" style="color:#FF8C00">working</a>'
-		+	'<a id="plug-btn-afk" title="sends afk message and sets status to afk" style="color:#FF8C00">afk</a>'
-		+	'<a id="plug-btn-back" title="sends available message and sets status to available" style="color:#FF8C00">available</a>'
+		+	'<a id="plug-btn-sleeping" title="sends sleep message and sets status to sleeping" style="color:#FF8C00">ADORMECIDO</a>'
+		+	'<a id="plug-btn-working" title="sends work message and sets status to working" style="color:#FF8C00">OCUPADO</a>'
+		+	'<a id="plug-btn-afk" title="sends afk message and sets status to afk" style="color:#FF8C00">AUSENTE</a>'
+		+	'<a id="plug-btn-back" title="sends available message and sets status to available" style="color:#FF8C00">DISPONÍVEL</a>'
     );
 }
 
