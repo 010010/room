@@ -69,11 +69,11 @@ function onCookiesLoaded() {
 }
 
 var words = {
-"Points" : "Pontos",
-"Now Playing" : "Tocando Agora:",
-"Time Remaining" : "Tempo Restante:",
+"Points" : "Beats!",
+"Now Playing" : "Now Playing:",
+"Time Remaining" : "Time Remaining:",
 "Volume" : "Crank the Volume!",
-"Current DJ" : "Atual DJ:",
+"Current DJ" : "Disc Jockey:",
 "Crowd Response" : "Reação da Galera:",
 "Fans":"Stalkers!"};
 
@@ -151,7 +151,7 @@ var styles = [
             '#side-right a:hover {background-color: rgba(97, 146, 199, 0.65);text-decoration: none;}',
             '.sidebar-content2 span:hover {background-color: rgba(97, 146, 199, 0.65);text-decoration: none;}',
             '.sidebar-content2 a:hover {text-decoration: none;}',
-            'html{background: url(http://i.imgur.com/R2YG7zn.png) no-repeat scroll center top #000000;}',
+            'html{background: url(http://imgur.com/cuz4Jno) no-repeat scroll center top #000000;}',
             '#room-wheel {z-index: 2;position: absolute;top: 2px;left: 0;width: 1044px;height: 394px;background: url(http://) no-repeat;display: none;}',
             '.chat-bouncer {background: url(http://i.imgur.com/9qWWO4L.png) no-repeat 0 5px;padding-left: 17px;width: 292px;}',
             '.chat-manager {background: url(http://i.imgur.com/hqqhTcp.png) no-repeat 0 5px;padding-left: 17px;width: 292px;}',
@@ -212,12 +212,12 @@ function displayUI() {
     	var colorEmotes = emotes ? '#3FFF00' : '#ED1C24';
     	var colorAudience = audience ? '#3FFF00' : '#ED1C24';
 	$('#side-right .sidebar-content').append(
-			'<a id="plug-btn-woot" title="Habilita/desabilita o Bacana Automático" style="color:' + colorWoot + '">BACANA AUTOMÁTICO</a>'
-		+ 	'<a id="plug-btn-queue" title="Habilita/desabilita o Meh Automático" style="color:' + colorQueue + '">MEH AUTOMÁTICO</a>'
-		+ 	'<a id="plug-btn-stream" title="Exibe/interrompe a transmissão dos vídeos" style="color:' + colorStream + '">STREAMING</a>'
-		+ 	'<a id="plug-btn-hidevideo" title="Esconde/exibe os vídeos" style="color:' + colorVideo + '">ESCONDER VÍDEO</a>'
-		+	'<a id="plug-btn-emotes" title="Habilita/desabilita emoticons" style="color:' + colorEmotes + '">EMOTICONS</a>'
-		+	'<a id="plug-btn-audience" title="Exibe/esconde a audiência da sala" style="color:' + colorAudience + '">AUDIÊNCIA</a>'
+			'<a id="plug-btn-woot" title="Habilita/desabilita o Bacana Automático" style="color:' + colorWoot + '">auto woot</a>'
+		+ 	'<a id="plug-btn-queue" title="Habilita/desabilita o Meh Automático" style="color:' + colorQueue + '">auto meh</a>'
+		+ 	'<a id="plug-btn-stream" title="Exibe/interrompe a transmissão dos vídeos" style="color:' + colorStream + '">streaming</a>'
+		+ 	'<a id="plug-btn-hidevideo" title="Esconde/exibe os vídeos" style="color:' + colorVideo + '">hide video</a>'
+		+	'<a id="plug-btn-emotes" title="Habilita/desabilita emoticons" style="color:' + colorEmotes + '">emoticons</a>'
+		+	'<a id="plug-btn-audience" title="Exibe/esconde a audiência da sala" style="color:' + colorAudience + '">audience</a>'
 		+	'<a  onclick="rules()" title="Exibe as principais regras da sala" style="color:#0000FF">REGRAS</a>'
 		+	'<a id="plug-btn-sleeping" title="Muda o status para Adormecido e envia uma mensagem automática" style="color:#FF8C00">ADORMECIDO</a>'
 		+	'<a id="plug-btn-working" title="Muda o status para Ocupado e envia uma mensagem automática" style="color:#FF8C00">OCUPADO</a>'
