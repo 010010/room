@@ -218,7 +218,7 @@ function displayUI() {
 		+ 	'<a id="plug-btn-hidevideo" title="Esconde/exibe os vídeos" style="color:' + colorVideo + '">hide video</a>'
 		+	'<a id="plug-btn-emotes" title="Habilita/desabilita emoticons" style="color:' + colorEmotes + '">emoticons</a>'
 		+	'<a id="plug-btn-audience" title="Exibe/esconde a audiência da sala" style="color:' + colorAudience + '">audience</a>'
-		+	'<a  onclick="rules()" title="Exibe as principais regras da sala" style="color:#0000FF">REGRAS</a>'
+		+	'<a  onclick="rules()" title="Exibe as principais regras da sala" style="color:#0000FF">RULES</a>'
 		+	'<a id="plug-btn-sleeping" title="Muda o status para Adormecido e envia uma mensagem automática" style="color:#FF8C00">sleeping</a>'
 		+	'<a id="plug-btn-working" title="Muda o status para Ocupado e envia uma mensagem automática" style="color:#FF8C00">busy</a>'
 		+	'<a id="plug-btn-afk" title="Muda o status para Ausente e envia uma mensagem automática" style="color:#FF8C00">afk</a>'
