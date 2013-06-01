@@ -219,15 +219,15 @@ function displayUI() {
 		+	'<a id="plug-btn-emotes" title="Habilita/desabilita emoticons" style="color:' + colorEmotes + '">emoticons</a>'
 		+	'<a id="plug-btn-audience" title="Exibe/esconde a audiência da sala" style="color:' + colorAudience + '">audience</a>'
 		+	'<a  onclick="rules()" title="Exibe as principais regras da sala" style="color:#0000FF">REGRAS</a>'
-		+	'<a id="plug-btn-sleeping" title="Muda o status para Adormecido e envia uma mensagem automática" style="color:#FF8C00">ADORMECIDO</a>'
-		+	'<a id="plug-btn-working" title="Muda o status para Ocupado e envia uma mensagem automática" style="color:#FF8C00">OCUPADO</a>'
-		+	'<a id="plug-btn-afk" title="Muda o status para Ausente e envia uma mensagem automática" style="color:#FF8C00">AUSENTE</a>'
-		+	'<a id="plug-btn-back" title="Muda o status para Disponível e envia uma mensagem automática" style="color:#FF8C00">DISPONÍVEL</a>'
+		+	'<a id="plug-btn-sleeping" title="Muda o status para Adormecido e envia uma mensagem automática" style="color:#FF8C00">sleeping</a>'
+		+	'<a id="plug-btn-working" title="Muda o status para Ocupado e envia uma mensagem automática" style="color:#FF8C00">busy</a>'
+		+	'<a id="plug-btn-afk" title="Muda o status para Ausente e envia uma mensagem automática" style="color:#FF8C00">afk</a>'
+		+	'<a id="plug-btn-back" title="Muda o status para Disponível e envia uma mensagem automática" style="color:#FF8C00">available</a>'
     );
 }
 
 function rules() {
-	alert("Regras: \n1) Ter pelo menos 18 anos; \n2) Não postar conteúdo ilegal, filho da puta (NÃO POSTE COISA ILEGAL); \n3) É proibido músicas com duração acima de 8 minutos; \n4) Não floode ou force algo no chat; \n5) Não seja attwhore. \n6) Não tente fazer amiguinhosrsrs; \n7) Proibido ofensas à moderação (exceto se merecerem); \n8) Escreva o bom e velho português corretamente, seu filho da puta sem costumes. \n9) Funk é proibido.");
+	alert("Regras: \n1) Ter pelo menos 18 anos; \n2) Não postar conteúdo ilegal, filho da puta (NÃO POSTE NADA ILEGAL); \n3) É proibido músicas com duração acima de 8 minutos; \n4) Não floode ou force algo no chat; \n5) Não seja attwhore. \n6) Não tente fazer amiguinhosrsrs; \n7) Proibido ofensas à moderação (exceto se merecerem); \n8) Escreva o bom e velho português corretamente, seu filho da puta sem costumes. \n9) Funk é proibido.");
 }
 
 function initUIListeners() {
