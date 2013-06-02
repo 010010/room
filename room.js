@@ -69,12 +69,12 @@ function onCookiesLoaded() {
 }
 
 var words = {
-"Points" : "Beats!",
+"Points" : "Points!",
 "Now Playing" : "Now Playing:",
 "Time Remaining" : "Time Remaining:",
 "Volume" : "Crank the Volume!",
 "Current DJ" : "Disc Jockey:",
-"Crowd Response" : "Reação da Galera:",
+"Crowd Response" : "Crowd Response:",
 "Fans":"Stalkers!"};
 
 String.prototype.prepareRegex = function() {
