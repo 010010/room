@@ -124,8 +124,8 @@ var COOKIE_AUDIENCE = 'audience';
 var COOKIE_LEFT = 'left';
 var MAX_USERS_WAITLIST = 50;
 
-var sleepMsg = ["Estarei dormindo, não atrapalhem minha sagrada soneca.", "Estarei descansando, minha mão ficou dormente de tanto fapar para traps."];
-var workMsg = ["Estarei ocupado, responderei assim que for possível!", "Estarei ocupado, qualquer coisa, basta quotar. :)"];
+var sleepMsg = ["Estarei dormindo, não atrapalhem minha sagrada soneca!", "Estarei descansando, minha mão ficou dormente de tanto fapar para traps. :3"];
+var workMsg = ["Estarei ocupado, responderei assim que for possível!", "Estarei ocupado, qualquer coisa, basta quotar. :3"];
 var afkMsg = ["Estarei AFK, até mais!", "Estarei AFK por enquanto. Bai Bai!", "Já volto!"];
 var backMsg = ["Estou de volta!", "Volteeei!"];
 
@@ -213,7 +213,7 @@ function displayUI() {
     	var colorAudience = audience ? '#3FFF00' : '#ED1C24';
 	$('#side-right .sidebar-content').append(
 			'<a id="plug-btn-woot" title="Habilita/desabilita o Bacana Automático" style="color:' + colorWoot + '">auto woot</a>'
-		+ 	'<a id="plug-btn-queue" title="Habilita/desabilita o Meh Automático" style="color:' + colorQueue + '">auto meh</a>'
+		+ 	'<a id="plug-btn-queue" title="Junta-se automáticamente à cabine do DJ" style="color:' + colorQueue + '">auto join</a>'
 		+ 	'<a id="plug-btn-stream" title="Exibe/interrompe a transmissão dos vídeos" style="color:' + colorStream + '">streaming</a>'
 		+ 	'<a id="plug-btn-hidevideo" title="Esconde/exibe os vídeos" style="color:' + colorVideo + '">hide video</a>'
 		+	'<a id="plug-btn-emotes" title="Habilita/desabilita emoticons" style="color:' + colorEmotes + '">emoticons</a>'
